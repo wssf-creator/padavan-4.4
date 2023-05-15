@@ -22,7 +22,7 @@ jobs:
       matrix:
         include:
           - build_variant: "mt7621-usb-2"
-            targets: "MR2100 RM2100"
+            targets: "R2100 RM2100"
     steps:
       - uses: actions/checkout@v2
       - name: Prepare environment
